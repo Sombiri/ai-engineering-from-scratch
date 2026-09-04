@@ -27,9 +27,6 @@ def api_call_with_demo():
         message = status_messages.get(status, "Unexpected status")
     print(f"Status {status}: {message}")
 
-        
-       
-
 
     url = "https://example.invalid/v1/messages"
     headers = {
