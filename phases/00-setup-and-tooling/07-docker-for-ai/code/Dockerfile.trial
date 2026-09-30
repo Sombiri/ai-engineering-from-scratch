@@ -1,0 +1,10 @@
+#builds the CPU-only trial and referencing the same lesson path
+
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY container_trial.py /app/container_trial.py
+
+CMD ["python", "container_trial.py"]
+
